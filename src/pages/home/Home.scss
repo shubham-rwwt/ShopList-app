@@ -1,0 +1,14 @@
+.addshop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: rgba(255, 96, 96, 0.852);
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    box-shadow: 2px 2px 4px rgb(132, 132, 132);
+}

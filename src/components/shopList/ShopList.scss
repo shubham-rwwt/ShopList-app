@@ -1,0 +1,19 @@
+.main {
+    margin: 28px 0;
+    padding: 0 60px;
+
+    h2 {
+        margin: 24px 0;
+    }
+
+    .list {
+        display: grid;
+
+        justify-content: space-evenly;
+        grid-template-columns: repeat(auto-fit, minmax(270px, auto));
+        grid-gap: 45px;
+        grid-auto-flow: row;
+
+        // height: 45px;
+    }
+}

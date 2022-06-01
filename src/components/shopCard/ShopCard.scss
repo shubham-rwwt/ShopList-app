@@ -1,0 +1,81 @@
+.shopcard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 22rem;
+    width: 18rem;
+    border-radius: 8px;
+    padding: 10px;
+    gap: 5px;
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.688), rgb(255, 178, 178));
+    // background-image: linear-gradient(45deg, rgba(61, 0, 0, 0.696), rgba(47, 47, 47, 0.951)),
+    //     url("../../icon/cardbg.jpg");
+    // background-size: cover;
+    // background-repeat: no-repeat;
+    .shopimg {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(183, 0, 0);
+        height: 40%;
+        border-radius: 8px;
+        background-image: linear-gradient(45deg, rgba(194, 194, 194, 0.635), rgba(255, 22, 22, 0.497)),
+            url("../../icon/shopbg.jpg");
+        background-size: cover;
+        // background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .details {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 60%;
+    }
+
+    p {
+        font-size: 18px;
+    }
+    .time {
+        display: flex;
+        justify-content: space-between;
+    }
+    .openingTime,
+    .closingTime {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        h3 {
+            font-size: 15px;
+        }
+    }
+    .btn {
+        cursor: pointer;
+        width: 100%;
+        height: 34px;
+        color: antiquewhite;
+        background-color: #f34d4da0;
+        border-radius: 18px;
+        border: none;
+        font-size: 15px;
+    }
+
+    .btns {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        .deletebtn {
+            cursor: pointer;
+            width: 100%;
+            height: 34px;
+            color: antiquewhite;
+            background-color: #ff0000b4;
+            border-radius: 18px;
+            border: none;
+            font-size: 15px;
+        }
+    }
+}
